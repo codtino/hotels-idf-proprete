@@ -1,0 +1,37 @@
+name: Découverte des hôtels
+
+on:
+  schedule:
+    - cron: "0 3 1 * *"   # le 1er de chaque mois
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Lister les hôtels Booking / TripAdvisor d'Île-de-France
+        run: python -m scraper.discover
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+
+      - name: Enregistrer la liste
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/hotels.json
+          git diff --cached --quiet || git commit -m "Liste des hôtels du $(date -u +'%Y-%m-%d')"
+          git pull --rebase --quiet && git push

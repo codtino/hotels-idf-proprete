@@ -1,0 +1,32 @@
+{
+  "site_url": "",
+  "region_postcode_prefixes": ["75", "77", "78", "91", "92", "93", "94", "95"],
+
+  "discovery": {
+    "atout_france_csv": "https://data.classement.atout-france.fr/static/exportHebergementsClasses/hebergements_classes.csv",
+    "booking_search": "Île-de-France",
+    "tripadvisor_query": "Île-de-France",
+    "max_hotels_per_source": 400,
+    "max_charge_usd_per_run": 2.5
+  },
+
+  "collect": {
+    "max_hotels": 150,
+    "min_rooms": 0,
+    "first_run_lookback_days": 14,
+    "booking_review_scores": ["review_adj_poor", "review_adj_average_passable"],
+    "booking_max_rating": 7,
+    "tripadvisor_review_ratings": ["1", "2"],
+    "tripadvisor_max_rating": 2,
+    "max_reviews_per_hotel": 30,
+    "max_charge_usd_per_run": 0.3,
+    "keep_max_reviews": 5000
+  },
+
+  "actors": {
+    "booking_search": "voyager~booking-scraper",
+    "booking_reviews": "voyager~booking-reviews-scraper",
+    "tripadvisor_search": "maxcopell~tripadvisor",
+    "tripadvisor_reviews": "maxcopell~tripadvisor-reviews"
+  }
+}

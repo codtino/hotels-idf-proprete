@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veille propreté hôtels</title>
+  <meta name="description" content="Avis négatifs Booking et TripAdvisor sur la propreté des moquettes, sièges et rideaux des hôtels d'Île-de-France.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧹</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Veille propreté · Hôtels Île-de-France</h1>
+      <p class="sub">Avis négatifs Booking et TripAdvisor qui signalent des moquettes, sièges, rideaux ou textiles sales.</p>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="banner" class="banner" hidden></div>
+
+    <section class="controls" aria-label="Filtres">
+      <label>Trier par
+        <select id="sort">
+          <option value="added">Date d'ajout (récents d'abord)</option>
+          <option value="rooms-desc">Taille de l'hôtel (plus grands d'abord)</option>
+          <option value="rooms-asc">Taille de l'hôtel (plus petits d'abord)</option>
+          <option value="review">Date de l'avis</option>
+        </select>
+      </label>
+      <label>Source
+        <select id="source">
+          <option value="">Toutes</option>
+          <option value="booking">Booking</option>
+          <option value="tripadvisor">TripAdvisor</option>
+        </select>
+      </label>
+      <label>Département
+        <select id="dept"><option value="">Tous</option></select>
+      </label>
+      <label>Chambres min.
+        <input id="minRooms" type="number" min="0" step="10" placeholder="0">
+      </label>
+      <label class="grow">Recherche
+        <input id="q" type="search" placeholder="Nom d'hôtel, ville, mot…">
+      </label>
+    </section>
+    <div class="chips" id="cats" role="group" aria-label="Catégories"></div>
+
+    <p class="count" id="count"></p>
+    <div id="list" class="list"></div>
+    <button id="more" class="more" hidden>Afficher plus</button>
+  </main>
+
+  <footer class="wrap foot">
+    Données : avis publics Booking.com et TripAdvisor (collecte via Apify), nombre de chambres : registre des hôtels classés Atout France.
+    Page actualisée automatiquement toutes les 5 minutes.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
