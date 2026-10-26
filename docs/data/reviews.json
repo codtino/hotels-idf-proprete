@@ -1,1 +1,79 @@
-{"updated_at": null, "reviews": []}
+{
+ "updated_at": "2026-10-26T09:59:06+00:00",
+ "reviews": [
+  {
+   "id": "booking:f57eef0c8f8390c1",
+   "source": "booking",
+   "hotelKey": "af-9d1fd9fa98",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "Passable",
+   "text": "Négatif : Ce n' est pas là première fois que je viens dans l'hôtel, généralement c'est très bien mais cette fois plusieurs sujets étaient dérangeant.la literie était en très mauvaise état et complètement inconfortable (heureusement qu il y avait un deuxième lit dans la chambre), la salle de bain et en particulier les rideaux étaient vraiment sales (tâches de nourriture ?)\nPositif : L'hôtel en général et le personnel (salle de sport très bien)",
+   "reviewDate": "2026-10-22",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/h4-paris-pleyel.html#tab-reviews",
+   "categories": [
+    "Rideaux / voilages"
+   ],
+   "excerpts": [
+    "Ce n' est pas là première fois que je viens dans l'hôtel, généralement c'est très bien mais cette fois plusieurs sujets étaient dérangeant.la literie était en très mauvaise état et complètement inconfortable (heureusement qu il y avait un deuxième lit dans la chambre), la salle de bain et en particulier les rideaux étaient vraiment sales (tâches de nourriture ?)"
+   ],
+   "terms": [
+    "rideaux",
+    "sales",
+    "taches"
+   ],
+   "addedAt": "2026-10-26T09:59:06+00:00",
+   "hotelName": "H4 HOTEL PARIS PLEYEL"
+  },
+  {
+   "id": "booking:9fe2a7c7330a6ff1",
+   "source": "booking",
+   "hotelKey": "af-abf202f332",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "Passable",
+   "text": "Négatif : La chambre était pas très propre (taches sur le tapis, WC tachée, malgré le chauffage il faisait froid).\nPositif : L’emplacement est idéal à côté de Disney.",
+   "reviewDate": "2026-10-21",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/magic-circus-hotel-marne-la-vallee.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "La chambre était pas très propre (taches sur le tapis, WC tachée, malgré le chauffage il faisait froid)."
+   ],
+   "terms": [
+    "tachee",
+    "taches",
+    "tapis"
+   ],
+   "addedAt": "2026-10-26T09:59:06+00:00",
+   "hotelName": "HÔTEL MAGIC CIRCUS PARIS II"
+  },
+  {
+   "id": "tripadvisor:1082927865",
+   "source": "tripadvisor",
+   "hotelKey": "af-053e50fbef",
+   "rating": 1,
+   "ratingLabel": "1/5",
+   "title": "Stay if you’re looking to sweat!",
+   "text": "I’ve stayed at a lot of Occidental properties.  I would not recommend this one. \n\nI spent 3 nights, 2 on the 7th floor with zero Ac.  It was like a boiler room.  The thing that upsets me the most is they are very aware of this.  Numerous employees know it, but yet they continue to book the upper floors.  I finally forced them to give me a lower level room which the rugs were stained.  \n\nOccidental, I gave you the opportunity to make this right and refund at least the two awful nights and you offered $65.  Now you can’t take this review in place of your ridiculous offer.  \n\nDo not stay here unless you’re looking for Sauna.  \n\n#donotstay",
+   "reviewDate": "2026-10-23",
+   "lang": "en",
+   "url": "https://www.tripadvisor.com/ShowUserReviews-g196574-d233673-r1082927865-Occidental_Paris_Levallois-Levallois_Perret_Hauts_de_Seine_Ile_de_France.html",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "I finally forced them to give me a lower level room which the rugs were stained."
+   ],
+   "terms": [
+    "rugs",
+    "stained"
+   ],
+   "addedAt": "2026-10-26T09:59:06+00:00",
+   "hotelName": "HÔTEL EVERGREEN LAUREL"
+  }
+ ]
+}
