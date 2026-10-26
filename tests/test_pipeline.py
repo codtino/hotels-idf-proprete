@@ -71,6 +71,8 @@ class CollectTest(unittest.TestCase):
                 again, _, _ = collect.run(CFG, "x")
                 self.assertEqual(again, [])
                 self.assertEqual(len(common.load_json(d / "r.json", {})["reviews"]), 2)
+                saved = common.load_json(d / "hotels.json", {})["hotels"]
+                self.assertEqual([h["key"] for h in saved], ["af-1", "af-2"])
 
 
 if __name__ == "__main__":

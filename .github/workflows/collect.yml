@@ -2,7 +2,7 @@ name: Collecte des avis
 
 on:
   schedule:
-    - cron: "0 5,17 * * *"   # deux fois par jour (heures UTC)
+    - cron: "0 5 * * *"   # une fois par jour, 5 h UTC (6 h ou 7 h à Paris)
   workflow_dispatch:
   push:
     branches: [main]

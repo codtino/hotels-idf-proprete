@@ -34,7 +34,7 @@ def cutoff_for(state, source, cfg):
     return since.strftime("%Y-%m-%d")
 
 
-def fetch_booking(hotels, cutoff, cfg, token):
+def fetch_booking(hotels, cutoff, cfg, token, max_charge):
     c = cfg["collect"]
     targets = [h for h in hotels if h.get("booking_url")]
     if not targets:
@@ -46,7 +46,7 @@ def fetch_booking(hotels, cutoff, cfg, token):
         "sortReviewsBy": "f_recent_desc",
         "cutoffDate": cutoff,
         "reviewScores": c["booking_review_scores"],
-    }, token, c["max_charge_usd_per_run"])
+    }, token, max_charge)
     by_url = {h["booking_url"]: h["key"] for h in targets}
     out = []
     for it in items:
@@ -71,7 +71,7 @@ def fetch_booking(hotels, cutoff, cfg, token):
     return out
 
 
-def fetch_tripadvisor(hotels, cutoff, cfg, token):
+def fetch_tripadvisor(hotels, cutoff, cfg, token, max_charge):
     c = cfg["collect"]
     targets = [h for h in hotels if h.get("tripadvisor_url")]
     if not targets:
@@ -83,7 +83,7 @@ def fetch_tripadvisor(hotels, cutoff, cfg, token):
         "reviewRatings": c["tripadvisor_review_ratings"],
         "reviewsLanguages": ["ALL_REVIEW_LANGUAGES"],
         "scrapeReviewerInfo": False,
-    }, token, c["max_charge_usd_per_run"])
+    }, token, max_charge)
     by_id = {h.get("tripadvisor_id"): h["key"] for h in targets}
     out = []
     for it in items:
@@ -122,9 +122,12 @@ def run(cfg, token, fetchers=FETCHERS):
     added_at = now_iso()
     for source, fetch in fetchers.items():
         cutoff = cutoff_for(state, source, cfg)
-        print(f"{source}: avis depuis le {cutoff}")
+        # Le premier passage remonte plus loin dans le temps : il a droit à un plafond plus haut.
+        first = source not in state.get("sources", {})
+        max_charge = cfg["collect"]["first_run_max_charge_usd" if first else "max_charge_usd_per_run"]
+        print(f"{source}: avis depuis le {cutoff} (plafond {max_charge} $)")
         try:
-            fetched = fetch(targets, cutoff, cfg, token)
+            fetched = fetch(targets, cutoff, cfg, token, max_charge)
         except apify.ApifyError as e:
             errors.append(f"{source}: {e}")
             print(f"ERREUR {e}", file=sys.stderr)
@@ -147,6 +150,9 @@ def run(cfg, token, fetchers=FETCHERS):
     reviews = sorted(new + reviews, key=lambda r: r["addedAt"], reverse=True)
     reviews = reviews[: cfg["collect"]["keep_max_reviews"]]
     save_json(REVIEWS_FILE, {"updated_at": added_at, "reviews": reviews})
+    # Le site lit hotels.json : on y reporte la liste suivie (dont hotels_manuels.json).
+    save_json(HOTELS_FILE, {"updated_at": added_at,
+                            "hotels": sorted(all_hotels.values(), key=lambda h: -(h.get("rooms") or 0))})
     state.update({"last_run": added_at, "last_new": len(new), "errors": errors,
                   "hotels_tracked": len(targets)})
     save_json(STATE_FILE, state)

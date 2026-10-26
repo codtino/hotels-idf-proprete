@@ -11,15 +11,16 @@
   },
 
   "collect": {
-    "max_hotels": 150,
+    "max_hotels": 50,
     "min_rooms": 0,
-    "first_run_lookback_days": 14,
+    "first_run_lookback_days": 7,
     "booking_review_scores": ["review_adj_poor", "review_adj_average_passable"],
     "booking_max_rating": 7,
     "tripadvisor_review_ratings": ["1", "2"],
     "tripadvisor_max_rating": 2,
-    "max_reviews_per_hotel": 30,
-    "max_charge_usd_per_run": 0.3,
+    "max_reviews_per_hotel": 20,
+    "max_charge_usd_per_run": 0.07,
+    "first_run_max_charge_usd": 0.4,
     "keep_max_reviews": 5000
   },
 
