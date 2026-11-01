@@ -1,6 +1,58 @@
 {
- "updated_at": "2026-10-31T10:43:40+00:00",
+ "updated_at": "2026-11-01T11:41:09+00:00",
  "reviews": [
+  {
+   "id": "tripadvisor:1083896300",
+   "source": "tripadvisor",
+   "hotelKey": "af-a340d7592e",
+   "rating": 2,
+   "ratingLabel": "2/5",
+   "title": "Disappointing and overpriced.",
+   "text": "We have stayed in Disney hotels in Florida for the past 30 years and previously been a vacation club member for many years. We were excited to visit Disneyland Paris for the first time and stay at the Newport Bay Club. We took our daughter, her fiancé and 2 year old grandson as a treat for the Halloween celebrations. \n\nPositives: Good location. Staff in the gift shop and bar were lovely and helpful.\n\nNegatives: The hotel is in desperate need of modernisation and needs a good clean. Staircases were very dirty, walls were scuffed and damaged and carpets were lifted in places. Rooms are dated, broken heating (it was freezing but plug in heaters were provided on the second night). Water pressure is poor and the shower went boiling hot or freezing cold. Handles were missing from drawers which were heavy and hard to open, the light was missing (they said they’d send a lamp but one never appeared) so we had to use our phone torches to see, the cot wasn’t set up and no bedding was provided. The ice making machine had been removed and the lifts were hit and miss if they worked. Our rooms weren’t even close together which is disappointing when you go on a family holiday. \n\nThe hotel lacks the amenities for the size of it. There is nowhere to get a hot drink or grab some fruit or pastries etc to eat on the go. A vending machine for water would be good as only one bottle is provided on your first night. There weren’t enough check in desks open or enough bell boys so the queues are huge and spill out into the lobby. A lot of the staff have an attitude, even the character photographer was bored and missed photo opportunities. \n\nThe main reason we chose to stay onsite was for the extra magic hour. We booked our park tickets with Disney direct. We couldn’t get in the park, even after showing our hotel keys. My daughter had been waiting since 7.30am to be at the front and was shouted at and told to go away when her ticket wouldn’t work. Back at the hotel we were given a key card for the park tickets but the  next day we had the same problem. The following day the magic hour didn’t save any time because only 5 rides were open across the two parks!\n\nI’m not sure why this is a four star hotel and I’m shocked at the standard of a Disney hotel. It doesn’t feel special in any way and the pixie dust and Disney magic is nonexistent. It’s the most disappointing stay I’ve ever had in a hotel.",
+   "reviewDate": "2026-10-31",
+   "lang": "en",
+   "url": "https://www.tripadvisor.com/ShowUserReviews-g1182377-d262679-r1083896300-Disney_Newport_Bay_Club-Chessy_Marne_la_Vallee_Seine_et_Marne_Ile_de_France.html",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "Staircases were very dirty, walls were scuffed and damaged and carpets were lifted in places."
+   ],
+   "terms": [
+    "carpets",
+    "dirty"
+   ],
+   "addedAt": "2026-11-01T11:41:09+00:00",
+   "hotelName": "DISNEY NEWPORT BAY CLUB"
+  },
+  {
+   "id": "tripadvisor:1083866395",
+   "source": "tripadvisor",
+   "hotelKey": "af-3ff7b7fed1",
+   "rating": 1,
+   "ratingLabel": "1/5",
+   "title": "L’hôtel Explorers ou le cauchemar de Disneyland Paris",
+   "text": "Nous avons séjourné à l'Explorers Hotel du 29 au 30 octobre 2026 et notre expérience a été extrêmement décevante.\n\nDès notre arrivée vers 23h, après une journée à Disneyland Paris, nous avons découvert des couloirs dans un état déplorable : poubelles débordantes, déchets au sol et restes de nourriture près de l'espace de jeux.\n\nL'état de notre chambre était tout aussi décevant : poignée de salle de bain cassée, saletés sous le meuble de l'évier et sol particulièrement sale sous le canapé. Nous avons également constaté un manque de propreté au niveau des vestiaires et des sols de la piscine.\n\nAutre point inquiétant : nous avons entendu des clients évoquer des piqûres qu'ils attribuaient à une éventuelle présence de punaises de lit. Sans pouvoir confirmer ces témoignages, cela n'est évidemment pas rassurant.\n\nMais le plus choquant reste l'organisation des navettes au retour des parcs à leur fermeture. Plus d'une heure d'attente, des bus bondés et une foule incontrôlable. Mon fils de 5 ans a failli se faire piétiner par des personnes qui tentaient de monter à tout prix. Il était en pleurs et d'autres enfants se retrouvaient également en difficulté. Il a fallu l'intervention d'agents de sécurité pour organiser la montée dans les bus.\n\nAu vu du prix payé pour une nuit, nous sommes extrêmement déçus. Nous attendions un minimum de propreté, d'entretien et surtout de sécurité.\n\nC'est d'autant plus regrettable qu'il s'agit d'un hôtel partenaire de Disneyland Paris. Nous sommes loin de l'expérience familiale que nous espérions.\n\nUn séjour que nous ne sommes pas près d'oublier, malheureusement pour de mauvaises raisons",
+   "reviewDate": "2026-10-31",
+   "lang": "fr",
+   "url": "https://www.tripadvisor.com/ShowUserReviews-g664935-d1221615-r1083866395-Explorers_Hotel-Magny_le_Hongre_Marne_la_Vallee_Seine_et_Marne_Ile_de_France.html",
+   "categories": [
+    "Sièges / canapés",
+    "Punaises de lit"
+   ],
+   "excerpts": [
+    "L'état de notre chambre était tout aussi décevant : poignée de salle de bain cassée, saletés sous le meuble de l'évier et sol particulièrement sale sous le canapé.",
+    "Autre point inquiétant : nous avons entendu des clients évoquer des piqûres qu'ils attribuaient à une éventuelle présence de punaises de lit."
+   ],
+   "terms": [
+    "canape",
+    "punaises de lit",
+    "sale",
+    "saletes"
+   ],
+   "addedAt": "2026-11-01T11:41:09+00:00",
+   "hotelName": "HÔTEL EXPLORERS"
+  },
   {
    "id": "booking:40aa0181479e7e46",
    "source": "booking",
