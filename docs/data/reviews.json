@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-01T11:41:09+00:00",
+ "updated_at": "2026-11-02T13:06:18+00:00",
  "reviews": [
+  {
+   "id": "booking:9574a4b2eaa5fd8e",
+   "source": "booking",
+   "hotelKey": "af-2c102cd716",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "moyen pour le prix très cher à mon avis",
+   "text": "Négatif : la propreté du lobby  est douteuse et celle des chambre  moyenne moquette sale\r\nsalle de bain beaucoup trop étroite pour un hotel de cette catégorie comme celle d'un formule 1  plus petite\nPositif : proximité de l'aéroport orly amabilité du personnel et bon petit déjeuner",
+   "reviewDate": "2026-11-02",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/ibis-orly-aeroport.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "la propreté du lobby  est douteuse et celle des chambre  moyenne moquette sale"
+   ],
+   "terms": [
+    "douteuse",
+    "moquette",
+    "sale"
+   ],
+   "addedAt": "2026-11-02T13:06:18+00:00",
+   "hotelName": "HÔTEL IBIS PARIS COEUR D'ORLY AÉROPORT"
+  },
   {
    "id": "tripadvisor:1083896300",
    "source": "tripadvisor",
