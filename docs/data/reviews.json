@@ -1,6 +1,56 @@
 {
- "updated_at": "2026-11-02T13:06:18+00:00",
+ "updated_at": "2026-11-03T12:37:54+00:00",
  "reviews": [
+  {
+   "id": "booking:845dd15be7b7e5f1",
+   "source": "booking",
+   "hotelKey": "af-d330fdf33b",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "Passable",
+   "text": "Négatif : Les toilettes n’étaient pas propre, rideaux de la chambre non plus",
+   "reviewDate": "2026-11-02",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/hyatt-place-paris-charles-de-gaulle-airport.html#tab-reviews",
+   "categories": [
+    "Rideaux / voilages"
+   ],
+   "excerpts": [
+    "Les toilettes n’étaient pas propre, rideaux de la chambre non plus"
+   ],
+   "terms": [
+    "pas propre",
+    "rideaux"
+   ],
+   "addedAt": "2026-11-03T12:37:54+00:00",
+   "hotelName": "HÔTEL HYATT PLACE PARIS CHARLES DE GAULLE AIRPORT"
+  },
+  {
+   "id": "booking:a106d44a1dad12d9",
+   "source": "booking",
+   "hotelKey": "af-2729bbb753",
+   "rating": 3,
+   "ratingLabel": "3/10",
+   "title": "Déception pour rapport l'image Ibis et au prix",
+   "text": "Négatif : La chambre était salle, joint de la salle d'eau moisis, noirs, tablette/tête de lit arrachée et absente, manque de prises,plinthes décollées, ventilation bruyante et inefficace, cheveux et saletés dans la salle d'eau,. Chambre à rénover complètement. Très déçus par le rapport qualité prix.petit déjeuner du 2ème jour: salle trop petite, cohue, attente pour 1 table, qualité des produits décevants pour 1 ibis. On a connu bien mieux",
+   "reviewDate": "2026-11-02",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/ibis-paris-berthier-17a-me.html#tab-reviews",
+   "categories": [
+    "Literie / tête de lit"
+   ],
+   "excerpts": [
+    "La chambre était salle, joint de la salle d'eau moisis, noirs, tablette/tête de lit arrachée et absente, manque de prises,plinthes décollées, ventilation bruyante et inefficace, cheveux et saletés dans la salle d'eau,."
+   ],
+   "terms": [
+    "cheveux",
+    "moisis",
+    "saletes",
+    "tete de lit"
+   ],
+   "addedAt": "2026-11-03T12:37:54+00:00",
+   "hotelName": "HÔTEL IBIS PARIS 17 CLICHY-BATIGNOLLES"
+  },
   {
    "id": "booking:9574a4b2eaa5fd8e",
    "source": "booking",
