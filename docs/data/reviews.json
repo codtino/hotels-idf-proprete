@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-03T12:37:54+00:00",
+ "updated_at": "2026-11-04T12:47:04+00:00",
  "reviews": [
+  {
+   "id": "booking:b9aa4497808d4ffa",
+   "source": "booking",
+   "hotelKey": "af-2729bbb753",
+   "rating": 3,
+   "ratingLabel": "3/10",
+   "title": "Décevant.",
+   "text": "Négatif : Manque crucial de rénovations et d'entretien : parties communes mal entretenues avec des traces de dégât des eaux, peintures vétustes sur les murs, ascenceurs lents, isolation phonique dépassée, moquettes usées, accès piétons à l'hôtel sale et insécurisant avec un ascenceur extérieur en panne... Offre de chambre double avec baignoire et lit double annoncé comme impossible et surtout, surtout, au 21eme siècle,  une seule prise de courant pour 2 en chambre !",
+   "reviewDate": "2026-11-03",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/ibis-paris-berthier-17a-me.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "Manque crucial de rénovations et d'entretien : parties communes mal entretenues avec des traces de dégât des eaux, peintures vétustes sur les murs, ascenceurs lents, isolation phonique dépassée, moquettes usées, accès piétons à l'hôtel sale et insécurisant avec un ascenceur extérieur en panne..."
+   ],
+   "terms": [
+    "moquettes",
+    "sale",
+    "usees"
+   ],
+   "addedAt": "2026-11-04T12:47:04+00:00",
+   "hotelName": "HÔTEL IBIS PARIS 17 CLICHY-BATIGNOLLES"
+  },
   {
    "id": "booking:845dd15be7b7e5f1",
    "source": "booking",
