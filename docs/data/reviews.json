@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-11-04T12:47:04+00:00",
+ "updated_at": "2026-11-05T12:56:01+00:00",
  "reviews": [
+  {
+   "id": "tripadvisor:1084320817",
+   "source": "tripadvisor",
+   "hotelKey": "af-3ff7b7fed1",
+   "rating": 2,
+   "ratingLabel": "2/5",
+   "title": "Very poor",
+   "text": "So the hotel facilities for kids are fine. Bar area is dreadful. Staff will watch you and do nothing while there will be one person working with a queue of 5 to 10 folk. Also very expensive. The rooms are pretty grotty inside. Very dirty carpets. Shower is cheapest connection to a bath. Breakfast, is continental in the busiest packed hall. Poor choice quality. 11 euro for a hot breakfast. Busses are a joke to the park also. Total crush. \n\nI would not visit again. At least pay for the Santa fe.",
+   "reviewDate": "2026-11-04",
+   "lang": "en",
+   "url": "https://www.tripadvisor.com/ShowUserReviews-g664935-d1221615-r1084320817-Explorers_Hotel-Magny_le_Hongre_Marne_la_Vallee_Seine_et_Marne_Ile_de_France.html",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "Very dirty carpets."
+   ],
+   "terms": [
+    "carpets",
+    "dirty"
+   ],
+   "addedAt": "2026-11-05T12:56:01+00:00",
+   "hotelName": "HÔTEL EXPLORERS"
+  },
   {
    "id": "booking:b9aa4497808d4ffa",
    "source": "booking",
