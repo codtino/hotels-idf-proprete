@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-11-06T12:43:09+00:00",
+ "updated_at": "2026-11-07T11:31:20+00:00",
  "reviews": [
+  {
+   "id": "booking:fc111f6f5df7dcea",
+   "source": "booking",
+   "hotelKey": "af-4d03c87bea",
+   "rating": 6,
+   "ratingLabel": "6/10",
+   "title": "A nice hotel nice location",
+   "text": "Négatif : Room was very noisy !!\r\nNoise was coming from other rooms and early morning the noise was from outside. Cleanliness was not amazing as there was stains in towels and on carpets evening meal that’s we ordered at the bar was give wrong and there was hair in the pizza that we had to give back but the manger felt with it ,but over all it was a good stay.\nPositif : Staff was friendly and helpful location was very good close to the parks.",
+   "reviewDate": "2026-11-06",
+   "lang": "en",
+   "url": "https://www.booking.com/hotel/fr/magic-circus-hotel-marne-la-vallee-paris.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "Cleanliness was not amazing as there was stains in towels and on carpets evening meal that’s we ordered at the bar was give wrong and there was hair in the pizza that we had to give back but the manger felt with it ,but over all it was a good stay."
+   ],
+   "terms": [
+    "carpets",
+    "hair",
+    "stains"
+   ],
+   "addedAt": "2026-11-07T11:31:20+00:00",
+   "hotelName": "HÔTEL DREAM CASTLE"
+  },
   {
    "id": "tripadvisor:1084320817",
    "source": "tripadvisor",
