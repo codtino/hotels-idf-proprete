@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-11-08T11:41:34+00:00",
+ "updated_at": "2026-11-09T13:37:48+00:00",
  "reviews": [
+  {
+   "id": "tripadvisor:1084795475",
+   "source": "tripadvisor",
+   "hotelKey": "af-886279e90d",
+   "rating": 1,
+   "ratingLabel": "1/5",
+   "title": "Plus jamais",
+   "text": "Le personnel est très correct, poli et professionnel. Le restaurant et le bar sont plutôt bien également. La chambre est en dessous de tout: matelas affaissé, sommier (une planche), odeur de sueur et vinaigre. C’est une honte.",
+   "reviewDate": "2026-11-08",
+   "lang": "fr",
+   "url": "https://www.tripadvisor.com/ShowUserReviews-g196587-d197404-r1084795475-Ibis_Styles_Paris_Roissy_CDG-Roissy_en_France_Val_d_Oise_Ile_de_France.html",
+   "categories": [
+    "Literie / tête de lit"
+   ],
+   "excerpts": [
+    "La chambre est en dessous de tout: matelas affaissé, sommier (une planche), odeur de sueur et vinaigre."
+   ],
+   "terms": [
+    "matelas",
+    "odeur"
+   ],
+   "addedAt": "2026-11-09T13:37:48+00:00",
+   "hotelName": "HÔTEL IBIS STYLES PARIS ROISSY CDG"
+  },
   {
    "id": "booking:fc111f6f5df7dcea",
    "source": "booking",
