@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-11-10T13:15:50+00:00",
+ "updated_at": "2026-11-11T12:26:28+00:00",
  "reviews": [
+  {
+   "id": "booking:99e5b964cf1e6951",
+   "source": "booking",
+   "hotelKey": "af-3ff7b7fed1",
+   "rating": 3,
+   "ratingLabel": "3/10",
+   "title": "Dirty, expensive and lost its sparkle",
+   "text": "Négatif : Food and prices were shocking.\nPositif : Shocking food, filthy pool, such a shame as we’ve stayed here before but was just dirty, breakfast was gross, dried up fruit, hard bread. Staff were all lovely and helpful. Carpets were dirty. Really needs a deep clean. \r\n\r\nUnfortunately busses were so full regularly having to wait for the next. \r\n\r\nQuite sad really to see how explorers has lost is sparkle over the  last 10years",
+   "reviewDate": "2026-11-10",
+   "lang": "en",
+   "url": "https://www.booking.com/hotel/fr/explorersdisneyland.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "Carpets were dirty."
+   ],
+   "terms": [
+    "carpets",
+    "dirty"
+   ],
+   "addedAt": "2026-11-11T12:26:28+00:00",
+   "hotelName": "HÔTEL EXPLORERS"
+  },
   {
    "id": "tripadvisor:1084795475",
    "source": "tripadvisor",
