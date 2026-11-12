@@ -1,6 +1,53 @@
 {
- "updated_at": "2026-11-11T12:26:28+00:00",
+ "updated_at": "2026-11-12T13:32:01+00:00",
  "reviews": [
+  {
+   "id": "booking:0bdbd4d5b331c5a2",
+   "source": "booking",
+   "hotelKey": "af-9073bf9855",
+   "rating": 6,
+   "ratingLabel": "6/10",
+   "title": "Amazing location. Disappointing otherwise",
+   "text": "Négatif : Service was disappointing for the price point. The property itself is somewhat dated with worn carpet and many things in the room needing repairs. You are paying for a 3 star hotel room and service with a 5 star location. Also, buyer beware on Eiffel Tower view. If you can lean over the edge of your balcony and see the Eiffel Tower, that counts\nPositif : The location is phenomenal",
+   "reviewDate": "2026-11-11",
+   "lang": "xu",
+   "url": "https://www.booking.com/hotel/fr/tour-eiffel.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "The property itself is somewhat dated with worn carpet and many things in the room needing repairs."
+   ],
+   "terms": [
+    "carpet",
+    "worn"
+   ],
+   "addedAt": "2026-11-12T13:32:01+00:00",
+   "hotelName": "HÔTEL PULLMAN PARIS TOUR EIFFEL"
+  },
+  {
+   "id": "booking:960abc9a8fd79863",
+   "source": "booking",
+   "hotelKey": "af-3baad7e4e6",
+   "rating": 4,
+   "ratingLabel": "4/10",
+   "title": "Disappointing",
+   "text": "Négatif : Le petit déjeuner et le manque d'empathie de la direction suite à ce désagrément du fait que je les avais interpellé à la fin de mon séjour au lieu de leur en faire part à l'instant T (mais il n'y avait pas de possibilité sur le moment malheureusement). La literie laisse également à désirer (punaise de lit?).\nPositif : L'accueil de certains membres du personnel ainsi que les jeux proposés pour les enfants dans le hall de l'hôtel.",
+   "reviewDate": "2026-11-12",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/ibis-styles-paris-cdg-airport-roissy.html#tab-reviews",
+   "categories": [
+    "Punaises de lit"
+   ],
+   "excerpts": [
+    "La literie laisse également à désirer (punaise de lit?)."
+   ],
+   "terms": [
+    "punaise de lit"
+   ],
+   "addedAt": "2026-11-12T13:32:01+00:00",
+   "hotelName": "HÔTEL IBIS STYLES PARIS CHARLES-DE-GAULLE AIRPORT"
+  },
   {
    "id": "booking:99e5b964cf1e6951",
    "source": "booking",
