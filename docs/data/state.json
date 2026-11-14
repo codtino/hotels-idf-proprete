@@ -1,16 +1,16 @@
 {
  "sources": {
   "booking": {
-   "last_success": "2026-11-12T13:32:01+00:00",
-   "fetched": 27
+   "last_success": "2026-11-14T11:56:23+00:00",
+   "fetched": 34
   },
   "tripadvisor": {
-   "last_success": "2026-11-12T13:32:01+00:00",
-   "fetched": 2
+   "last_success": "2026-11-14T11:56:23+00:00",
+   "fetched": 3
   }
  },
- "last_run": "2026-11-12T13:32:01+00:00",
- "last_new": 2,
+ "last_run": "2026-11-14T11:56:23+00:00",
+ "last_new": 1,
  "errors": [],
  "hotels_tracked": 50
 }

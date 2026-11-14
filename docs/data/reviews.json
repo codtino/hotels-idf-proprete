@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-11-12T13:32:01+00:00",
+ "updated_at": "2026-11-14T11:56:23+00:00",
  "reviews": [
+  {
+   "id": "booking:d5290a65400fb923",
+   "source": "booking",
+   "hotelKey": "af-c034338365",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "Décevant et pourtant j’ai laissé passer plusieurs annees deja avant de retester… l’emplacement ne fait pas tout.",
+   "text": "Négatif : L’offre de restauration est minimaliste, les rideaux étaient sales et pendaient d’un coté, pas de machine a café dans un 4 étoiles, surface très petite pour une chambre supérieure. Taxe de séjour a + de 8€ pour une nuit : c’est du délire\nPositif : Le service d’étage qui m’a apporté ma collation, le monsieur fait tout son possible pour le client.",
+   "reviewDate": "2026-11-14",
+   "lang": "fr",
+   "url": "https://www.booking.com/hotel/fr/mercure-paris-gare-de-lyon.html#tab-reviews",
+   "categories": [
+    "Rideaux / voilages"
+   ],
+   "excerpts": [
+    "L’offre de restauration est minimaliste, les rideaux étaient sales et pendaient d’un coté, pas de machine a café dans un 4 étoiles, surface très petite pour une chambre supérieure."
+   ],
+   "terms": [
+    "rideaux",
+    "sales"
+   ],
+   "addedAt": "2026-11-14T11:56:23+00:00",
+   "hotelName": "HÔTEL MERCURE PARIS GARE DE LYON TGV"
+  },
   {
    "id": "booking:0bdbd4d5b331c5a2",
    "source": "booking",
