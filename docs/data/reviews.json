@@ -1,6 +1,30 @@
 {
- "updated_at": "2026-11-27T14:42:22+00:00",
+ "updated_at": "2026-11-28T13:53:56+00:00",
  "reviews": [
+  {
+   "id": "booking:408d8b1ddf283678",
+   "source": "booking",
+   "hotelKey": "af-abf202f332",
+   "rating": 5,
+   "ratingLabel": "5/10",
+   "title": "If this place was cleaned and a bit of general maintenance was done it would be good.",
+   "text": "Négatif : It was dirty! We had loads of long black hair in the bathroom. The carpet was grim. Not all lifts were working so getting down to breakfast or to leave took forever.  We couldn’t find a stairwell so couldn’t just use the stairs either. The cooked breakfast was disgusting. Cost of parking was extortionate.\nPositif : I liked the hallways and themed areas of hotel. Was a good pool despite how messy it was and needing a good clean and maintenance. The layout of our room was good with the bunkbeds for the kids.",
+   "reviewDate": "2026-11-28",
+   "lang": "en",
+   "url": "https://www.booking.com/hotel/fr/magic-circus-hotel-marne-la-vallee.html#tab-reviews",
+   "categories": [
+    "Moquette / tapis"
+   ],
+   "excerpts": [
+    "The carpet was grim."
+   ],
+   "terms": [
+    "carpet",
+    "grim"
+   ],
+   "addedAt": "2026-11-28T13:53:56+00:00",
+   "hotelName": "HÔTEL MAGIC CIRCUS PARIS II"
+  },
   {
    "id": "booking:24b9230d2a903ffd",
    "source": "booking",
